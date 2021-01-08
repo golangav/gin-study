@@ -1,0 +1,6 @@
+{
+  "app_name": "gin_study",
+  "app_mode": "debug",
+  "app_host": "127.0.0.1:8080",
+  "app_port": "8080"
+}
