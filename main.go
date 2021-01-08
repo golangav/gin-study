@@ -11,6 +11,10 @@ func main() {
 	if err != nil{
 		panic(err.Error())
 	}
+	_, err = tool.OrmEngine(cfg)
+	if err != nil {
+		panic(err.Error())
+	}
 
 	app := gin.Default()
 	registerRouter(app)

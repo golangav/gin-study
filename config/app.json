@@ -2,5 +2,15 @@
   "app_name": "gin_study",
   "app_mode": "debug",
   "app_host": "127.0.0.1:8080",
-  "app_port": "8080"
+  "app_port": "8080",
+  "database":{
+    "driver":"mysql",
+    "user": "gin_study",
+    "password": "av123456",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "db_name": "gin_study",
+    "chartset": "utf-8",
+    "show_sql": true
+  }
 }
